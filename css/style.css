@@ -1,0 +1,137 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+
+/* Header Section Start */
+
+header{
+	background: #f6f9f9;
+	padding: 28px 0px;
+	width: 100%;
+	float: left;
+}
+.logo{
+
+	width: 30%;
+
+	float: left;
+	}
+.logo img{
+	
+}
+.menu{
+
+	width: 70%;
+
+	float: left;
+}
+nav ul{
+
+	list-style: none;
+}
+nav ul li{
+	
+	display: inline-block;
+		
+	margin: 10px 40px;
+}
+nav ul li a{
+	
+	text-decoration: none;
+		
+	color: : #161616;
+		
+	font-size: 25px;
+		
+	text-transform: uppercase;
+	}
+	/* bannar Section Start */
+.banner{
+	width: 100%;
+	float: left;
+	background: url(../img/Banner.png)no-repeat;
+	background-size: cover;
+
+}
+.banner-content{
+	padding-top: 215px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.banner-content h2{
+	font-size: 120px;
+    color: #fff;
+    font-weight: bold;
+}
+		
+}
+.banner-content span{
+	display: block;
+	border-bottom: 2px solid #15a4fa;
+	margin: 10px auto;
+	width: 80%;
+		
+}
+.banner-content p{
+	color: #fff;
+	font-weight: 300;
+		
+}
+.btn{
+	background: transparent;
+	border: 1px solid #15a4fa;
+	padding: 8px 18px;
+	color: #ffff;
+	margin: 50px 0px 120px;
+
+}
+.btn-icon{
+color: #fff;
+margin-bottom: 
+}
+.about{
+	background: #f6f9f9;
+	width: 100%;
+	float: left;
+
+}
+.about-content{
+	text-align: center;
+
+}
+.about-content h2{
+	
+}
+.about-content p{
+	
+}
+
+}
+.Portfoio {
+	width: 100%;
+	float: left;
+	padding-top: : 100px;
+}.Portfoio-one {
+	width: 33.33%;
+	float: left;
+	
+}
+.form{
+	background: #2E3A4E;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+
+}
