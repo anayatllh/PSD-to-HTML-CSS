@@ -22,7 +22,8 @@
 						<li><a href="#">Home</a></li>
 						<li><a href="#">Service</a></li>
 						<li><a href="#">Portfoio</a></li>
-						<li><a href="#">Contact Us</a></li>						
+						<li><a href="#calc">Calculator</a></li>
+						<li><a href="#">Contact Us</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -72,6 +73,75 @@
 		</div>
 	</section>
 
+	<!--Calculator + Converter Section Start-->
+	<section class="calc" id="calc">
+		<div class="container">
+			<div class="calc-head">
+				<h2>Calculator &amp; Unit Converter</h2>
+				<p>Crunch numbers and convert units right on the page.</p>
+			</div>
+
+			<div class="calc-wrap">
+				<!--Calculator panel-->
+				<div class="calc-panel">
+					<h3>Calculator</h3>
+					<input type="text" id="calc-display" value="0" readonly>
+					<div class="calc-keys">
+						<button type="button" data-action="clear" class="key-fn">C</button>
+						<button type="button" data-action="back" class="key-fn">&#9003;</button>
+						<button type="button" data-op="/" class="key-op">&divide;</button>
+						<button type="button" data-op="*" class="key-op">&times;</button>
+
+						<button type="button" data-digit="7">7</button>
+						<button type="button" data-digit="8">8</button>
+						<button type="button" data-digit="9">9</button>
+						<button type="button" data-op="-" class="key-op">&minus;</button>
+
+						<button type="button" data-digit="4">4</button>
+						<button type="button" data-digit="5">5</button>
+						<button type="button" data-digit="6">6</button>
+						<button type="button" data-op="+" class="key-op">+</button>
+
+						<button type="button" data-digit="1">1</button>
+						<button type="button" data-digit="2">2</button>
+						<button type="button" data-digit="3">3</button>
+						<button type="button" data-action="equals" class="key-eq">=</button>
+
+						<button type="button" data-digit="0" class="key-zero">0</button>
+						<button type="button" data-digit=".">.</button>
+					</div>
+				</div>
+
+				<!--Converter panel-->
+				<div class="calc-panel">
+					<h3>Unit Converter</h3>
+					<label for="conv-category">Category</label>
+					<select id="conv-category">
+						<option value="Length">Length</option>
+						<option value="Weight">Weight</option>
+						<option value="Temperature">Temperature</option>
+						<option value="Area">Area</option>
+						<option value="Speed">Speed</option>
+						<option value="Volume">Volume</option>
+						<option value="Time">Time</option>
+					</select>
+
+					<label for="conv-input">Value</label>
+					<input type="number" id="conv-input" value="1">
+
+					<div class="conv-row">
+						<select id="conv-from"></select>
+						<button type="button" id="conv-swap" title="Swap units">&#8646;</button>
+						<select id="conv-to"></select>
+					</div>
+
+					<label for="conv-result">Result</label>
+					<input type="text" id="conv-result" readonly>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section class="form">
 		<div class="container">
 			<h2>Stay With Us</h2>
@@ -89,7 +159,8 @@
 		</div>
 		
 	</section>
-	
 
+	<!--Calculator + Converter logic-->
+	<script src="js/calculator.js"></script>
 </body>
 </html>
